@@ -1,0 +1,369 @@
+@charset "utf-8";
+body    {
+    margin: 0px;
+    color: #151515;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-color: #EFF5F8;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-width: 740px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wrapper #top #header #signup {
+	float: right;
+	padding-top: 0px;
+	margin-top: 30px;
+	margin-right: 10px;
+	background-image: url(../images/Signup.jpg);
+	width: 85px;
+	height: 30px;
+}
+#wrapper #top #header #login {
+	float: right;
+	top: 0px;
+	padding-top: 0px;
+	margin-top: 30px;
+	margin-right: 20px;
+	background-image: url(../images/Login.jpg);
+	width: 75px;
+	height: 30px;
+}
+h1, h2 {
+	color: #3399CC;
+	font-style: normal;
+	font-weight: 600;
+	font-family: source-sans-pro;
+	position: absolute;
+}
+h1 {
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.floatleft {
+    margin-right: 10px;
+    float: left;
+}
+.floatright {
+    margin-left: 10px;
+    float: right;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link {
+    color: #FF6600;
+}
+a:visited {
+    color: #FF944C;
+}
+a:hover, a:active, a:focus {
+    color: #7F3300;
+    text-decoration: underline;
+}
+#mainnav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#mainnav a {
+    width: 20%;
+    display: block;
+    float: left;
+    background-color: #4D4D4D;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+    text-decoration: none;
+    background-color: #43A6CB;
+}
+article, aside, figure, footer, header, nav {
+    display: block;
+}
+#home {
+    width: 100%;
+    margin-left: 2%;
+    float: left;
+}
+#wrapper #home img {
+	max-width: 100%;
+}
+#wrapper #home {
+	width: 100%;
+	height: 3800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/Home_background.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#wrapper #home #engage_button {
+	position: absolute;
+	left: 580px;
+	right: 0px;
+	top: 1350px;
+	background-image: url(../images/Learn_more.jpg);
+	width: 135px;
+	height: 40px;
+}
+#wrapper #home #enable_button {
+	position: absolute;
+	left: 38px;
+	right: 0px;
+	top: 1902px;
+	background-image: url(../images/Learn_more.jpg);
+	width: 135px;
+	height: 40px;
+}
+#wrapper #home #incent_button {
+	position: absolute;
+	left: 578px;
+	right: 0px;
+	top: 2475px;
+	background-image: url(../images/Learn_more.jpg);
+	width: 135px;
+	height: 40px;
+}
+#wrapper #home #guide_button {
+	position: absolute;
+	left: 35px;
+	right: 0px;
+	top: 3058px;
+	background-image: url(../images/Learn_more.jpg);
+	width: 135px;
+	height: 40px;
+}
+#wrapper #home #secure_button {
+	position: absolute;
+	left: 582px;
+	right: 0px;
+	top: 3589px;
+	background-image: url(../images/Learn_more.jpg);
+	width: 135px;
+	height: 40px;
+}
+#services {
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+}
+#wrapper #services img {
+	max-width: 100%;
+}
+#wrapper #services {
+	width: 100%;
+	height: 2695px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/Services_background.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#wrapper #services #video {
+	position: absolute;
+	left: 144px;
+	top: 68px;
+	width: 756px;
+	height: 429px;
+}
+#company {
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+}
+#wrapper #company img {
+	max-width: 100%;
+}
+#wrapper #company {
+	width: 100%;
+	height: 2210px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/Company_background.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#wrapper #company #barret {
+	position: absolute;
+	left: 114px;
+	top: 1107px;
+	width: 182px;
+	height: 181px;
+}
+#wrapper #company #tom {
+	position: absolute;
+	left: 437px;
+	top: 1379px;
+	width: 201px;
+	height: 223px;
+}
+#wrapper #blog #facebook {
+	position: absolute;
+	left: 701px;
+	top: 1413px;
+	width: 249px;
+	height: 43px;
+}
+#wrapper #home #home_pic {
+	position: absolute;
+	width: 377px;
+	height: 328px;
+	left: 315px;
+	top: 40px;
+}
+#wrapper #company #jim {
+	position: absolute;
+	left: 447px;
+	top: 1110px;
+	width: 164px;
+	height: 200px;
+}
+#wrapper #company #brian {
+	position: absolute;
+	left: 766px;
+	top: 1120px;
+	width: 168px;
+	height: 177px;
+}
+#wrapper #company #wayne {
+	position: absolute;
+	left: 118px;
+	top: 1377px;
+	width: 179px;
+	height: 165px;
+}
+#wrapper #company #cintia {
+	position: absolute;
+	left: 445px;
+	top: 1697px;
+	width: 144px;
+	height: 173px;
+}
+#wrapper #company #charlie {
+	position: absolute;
+	left: 750px;
+	top: 1669px;
+	width: 180px;
+	height: 199px;
+}
+#blog {
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+}
+#wrapper #blog img {
+	max-width: 100%;
+}
+#wrapper #blog {
+	width: 100%;
+	height: 1690px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#wrapper #blog .widget-content .follow-by-email-inner #blog_form {
+	position: absolute;
+	left: 197px;
+	top: 273px;
+	width: 600px;
+}
+#wrapper #blog .widget-content .follow-by-email-inner #blog_form table tr td #blog_email {
+	width: 550px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: normal;
+	font-size: medium;
+	color: #000000;
+}
+#wrapper #blog #twitter {
+	position: absolute;
+	left: 679px;
+	top: 752px;
+	height: 130px;
+	width: 300px;
+}
+#wrapper #blog #blog_categories {
+	position: absolute;
+	left: 668px;
+	top: 489px;
+	height: 158px;
+	width: 311px;
+}
+#wrapper #blog #blog_categories ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper #blog #blog_categories ul li {
+    margin: 8px;
+    padding: 0px;
+}
+#wrapper #blog #blog_categories a {
+	text-align: center;
+	color: #5481A2;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#wrapper #blog #blog_categories a:hover, #wrapper #blog #blog_categories a:active, #wrapper #blog #blog_categories a:focus {
+    text-decoration: none;
+    background-color: #AAAAAA;
+}
+#contact {
+    width: 58%;
+    margin-left: 2%;
+    float: left;
+}
+#wrapper #contact img {
+	max-width: 100%;
+}
+#wrapper #contact {
+	width: 100%;
+	height: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/Contact_background.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#wrapper #contact #contact_form {
+	position: absolute;
+	left: 385px;
+	top: 564px;
+	width: 106px;
+	height: 81px;
+}
+#wrapper #contact .widget-content .follow-by-email-inner #blog_form {
+	position: absolute;
+	left: 187px;
+	top: 1355px;
+	width: 600px;
+}
+#wrapper #contact .widget-content .follow-by-email-inner #blog_form table tr td #blog_email {
+	width: 550px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: normal;
+	font-size: medium;
+	color: #000000;
+}
+footer {
+    clear: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2%;
+    background-color: #43A6CB;
+    color: #FFFFFF;
+}
